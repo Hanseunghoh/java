@@ -36,7 +36,7 @@ public class MyFriends {
 
 	public static void main(String[] args) {
 		//대학 동창의 관리를 위한 배열과 변수
-		UnivFriend[]ufrns = new UnivFriend[5];
+		UnivFriend[] ufrns = new UnivFriend[5];    
 		int ucnt = 0;
 		
 		//직장 동료의 관리를 위한 배열과 변수
@@ -44,7 +44,8 @@ public class MyFriends {
 		int ccnt = 0;
 		
 		//대학 동창의 정보 저장
-		ufrns[ucnt++] = new UnivFriend("Lee","Computer","010-333-555");
+		ufrns[ucnt++] = new UnivFriend("Lee","Computer","010-333-555");   // ufrns[0] = new UnivFriend("Lee","Computer","010-333-555"); 
+										  // ufrns[1] = new UnivFriend("SEO","Electronics","010-222-444");
 		ufrns[ucnt++] = new UnivFriend("SEO","Electronics","010-222-444");
 		
 		//직장 동료의 정보 저장
