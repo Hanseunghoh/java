@@ -60,3 +60,6 @@ public class AbstractInterface2 {
 	}
 
 }
+
+//main에 객체 인스턴스에 100개 대입할것임 -> 100개에 관한(생성자로) 클래스 만들기
+//interface 할 클래스의 인스턴스에 name과 number로 구성할거로 만들기 -> name 과 number로 관한(생성자로) 클래스 만들기
